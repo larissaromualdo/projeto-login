@@ -35,6 +35,9 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     background: #5f2c82 url(../imagens/flores.jpg) no-repeat;
@@ -46,3 +49,4 @@ section#login > div#formulário {
     padding: 10px;
     display: block;
 }
+
